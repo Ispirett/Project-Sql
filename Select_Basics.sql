@@ -9,4 +9,13 @@ SELECT name, population FROM world
 3.
 SELECT name, area FROM world
   WHERE area BETWEEN 200000 AND 250000
+  
+Quizes:
+1 = 3
+2 = Table-E
+3 = 5
+4 = 3
+5 = 3
+6 = 3
+7 = 3
 
