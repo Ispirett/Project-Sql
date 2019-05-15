@@ -57,3 +57,14 @@ SELECT name
    FROM world
 WHERE name LIKE '%o%a%i%u%e%'
   AND name NOT LIKE '% %'
+  
+  TEST
+  1 = 5
+  2 = 4
+  3 = 2
+  4 = 4
+  5 = 2
+  6 = 4
+  7 = 3
+  
+  
