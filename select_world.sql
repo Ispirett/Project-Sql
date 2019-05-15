@@ -41,3 +41,19 @@ WHERE continent = 'South America'
 SELECT name, round(gdp/population,-3)   As gdp
 FROM world
 WHERE gdp > 1000000000000
+
+11:
+SELECT name, capital
+  FROM world
+ WHERE LENGTH(name) = LENGTH(capital)
+ 
+12:
+SELECT name, capital
+FROM world
+WHERE LEFT(name,1) = LEFT(capital,1) AND name NOT LIKE capital
+
+13:
+SELECT name
+   FROM world
+WHERE name LIKE '%o%a%i%u%e%'
+  AND name NOT LIKE '% %'
