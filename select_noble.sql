@@ -69,6 +69,15 @@ SELECT winner, subject
  ORDER BY   subject IN ('Physics','Chemistry'),  subject,winner
 
 
+TEST:
+
+1 = 5
+2 = 3
+3 = 2
+4 = 3
+5 = 3
+6 = 3
+7 = 4
 
 
 
