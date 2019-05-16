@@ -47,5 +47,33 @@ SELECT continent, name, area FROM world x
     (SELECT MAX(area) FROM world y
         WHERE y.continent = x.continent
         ) 
-          
+
+8:
+SELECT continent, name FROM 
+world  x WHERE name  = ( 
+   SELECT name FROM 
+   world y 
+   WHERE y.continent = x.continent
+   ORDER BY name
+   LIMIT 1
+
+)
+
+9:
+ SELECT name, continent, population FROM world x
+ WHERE (SELECT MAX(population)
+        FROM world
+        WHERE continent = x.continent) 
+<= 25000000;
+                
+10:
+SELECT name, continent FROM world x
+WHERE population/ 3 > (
+             SELECT MAX(population)  FROM world y
+             WHERE x.continent = y.continent 
+             AND  y.name != x.name   
+
+)
+                
+                
           
