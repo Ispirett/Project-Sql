@@ -72,7 +72,13 @@ LEFT JOIN goal ON id =matchid
  GROUP BY mdate, team1, 
 
 
-
-
+QUIZ:
+1 = 4
+2 = 3
+3 = 1
+4 = 1
+5 = 2
+6 = 3
+7 = 2
 
  
