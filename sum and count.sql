@@ -31,3 +31,14 @@ WHERE population >= 10000000
 SELECT DISTINCT continent FROM world 
 GROUP BY continent 
 HAVING SUM(population) >= 100000000
+
+
+Quiz
+1 = 3
+2 = 1
+3 = 4
+4 = 5
+5 = 2
+6 = 5
+7 = 4
+8 = 4
