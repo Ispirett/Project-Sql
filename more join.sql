@@ -103,6 +103,15 @@ WHERE yr = 1978
            SELECT id
             FROM actor
               WHERE name= 'Art Garfunkel'))
-               AND name != 'Art Garfunkel'            
-
-                                
+               AND name != 'Art Garfunkel'    
+            
+   
+ Quiz
+            
+ 1 = 3
+ 2 = 5           
+ 3 = 3
+ 4 = 2          
+ 5 = 4
+ 6 = 3
+ 7 = 3          
