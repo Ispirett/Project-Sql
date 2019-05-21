@@ -48,4 +48,11 @@ SELECT teacher.name ,
                  FROM teacher LEFT JOIN dept
            ON (dept=dept.id)
            
+QUIZ
 
+1 = 5
+2 = 3
+3 = 5
+4 = 2
+5 = 1
+6 = 1
