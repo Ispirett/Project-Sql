@@ -79,11 +79,11 @@ WHERE movie.id IN(
             actorid = actor.id
   JOIN movie ON 
             movieid = movie.id
-WHERE ord = 1
-GROUP BY name
-HAVING COUNT
-                   (movieid) >= 30
-                  
+            WHERE ord = 1
+            GROUP BY name
+            HAVING COUNT
+            (movieid) >= 30
+
  14:
     SELECT title, COUNT(name) as actors FROM movie
             JOIN casting ON
