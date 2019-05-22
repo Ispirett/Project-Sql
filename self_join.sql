@@ -70,3 +70,9 @@ WHERE a.num != b.num
        AND b.company IN (SELECT DISTINCT e.company FROM route e
                    JOIN stops r ON (e.stop = (SELECT id FROM stops r WHERE name = 'Lochend'))
                    WHERE e.num = b.num);
+                                    
+                                    
+Quiz 
+ 1: 3
+ 2: 5
+ 3: 4
